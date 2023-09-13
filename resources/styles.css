@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 10px 0;
+    font-size: 2rem;
+    position: relative;
+  }
+  .box .title {
+    position: absolute;
+    top: 0px;
+    
+    font-size: 0.9rem;
+  }
+  body {
+    background-color: rgba(19, 27, 27, 255);
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Verdana, sans-serif;
+    /* cursor: pointer; */
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+  .blue {
+    background-color: #59a7bf;
+    color: black;
+  }
+  .blue .title {
+    right: 3px;
+  }
+  .red {
+    background-color: #ce3331;
+  }
+  .red .title {
+    left: 3px;
+  }
