@@ -30,7 +30,7 @@
       "alwaysOnTop": true,
       "icon": "/resources/icons/appIcon.png",
       "enableInspector": true,
-      "borderless": false,
+      "borderless": true,
       "maximize": false,
       "hidden": false,
       "resizable": false,

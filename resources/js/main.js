@@ -197,6 +197,7 @@ const init = async () => {
     
 
     try {
+        await Neutralino.window.setDraggableRegion('neutralinoapp')
         const logDir = await getLogDir()
         console.log('logDir', logDir)
         initDPSChart()
